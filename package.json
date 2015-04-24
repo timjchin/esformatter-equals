@@ -1,0 +1,33 @@
+{
+  "name": "esformatter-equals",
+  "version": "1.0.0",
+  "description": "esformatter plugin: enforces coding style that equality values are always triple equals and double not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui bdd --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timjchin/esformatter-equals.git"
+  },
+  "keywords": [
+    "esformatter",
+    "string",
+    "equals",
+    "AST"
+  ],
+  "author": "Tim Chin <timjchin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timjchin/esformatter-equals/issues"
+  },
+  "homepage": "https://github.com/timjchin/esformatter-equals",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "esformatter": "^0.3.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "rocambole-token": "^1.2.1"
+  }
+}
